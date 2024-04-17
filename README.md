@@ -23,8 +23,8 @@ A SQL Server based Shopping Website *(NOVELNEST)* with with PYTHON FLASK framewo
 #### Clone the project:
 
 ```bash
-  git clone https://link-to-project
-  cd my-project
+  git clone https://github.com/stillSS301/books-shopping-website
+  cd books-shopping-website
   pip install -r deps.txt
   python wsgi_application.py
 
