@@ -3,8 +3,6 @@ import random
 import webbrowser
 import mysql.connector as s
 
-passkey = input("Enter SQL Password AGAIN.....")
-
 mycon=s.connect(host='localhost', user='root', passwd=passkey, database='mc1')
 
 bridge = Flask(__name__, static_url_path='/static')
