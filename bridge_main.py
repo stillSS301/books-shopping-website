@@ -1878,9 +1878,9 @@ def about():
                         </html>"""
 if __name__ == '__main__':
 
-    webbrowser.open_new_tab('http://127.0.0.1:5000')
+    
 
-    bridge.run(debug=True, use_reloader=False)
+    bridge.run()
     
     
     
